@@ -1,22 +1,69 @@
 # TODO: Add dialogue for this scene (this might take a long time)
 # TODO: Add music, sound effects, and background art (Im broke T^T)
 
-label chapter0:
+label prologue:
 
 # Beginning Scene
-    "Have you ever had one of those days where everything seems to go wrong, but then a small act of kindness from a friend turns it all around?"
-    "That's exactly what happened to me today."
-    "It all started when I was caught in a sudden downpour without an umbrella."
-    "I was drenched and feeling pretty miserable when Kasuka, my coworker, noticed me struggling."
-    "Without hesitation, she offered me her umbrella and walked me home."
-    "That simple gesture made my day so much better."
-    "We chatted along the way, and I couldn't help but feel a little spark between us."
-    "Maybe it was the rain, or maybe it was just Kasuka's kindness, but I found myself looking forward to our next encounter."
-    "As we reached my doorstep, I thanked her for the umbrella and the company."
-    "She smiled and said it was no problem at all."
-    "I watched her walk away, feeling grateful and a bit hopeful."
-    "Sometimes, it's the little things that make the biggest difference."
-    "And today, Kasuka's kindness was exactly what I needed."
+
+    "Have you ever dreamed of a moment so vivid, it felt like a memory?"
+
+    "Not the kind of dream with dragons or flying cars. I mean the quiet kind—the ones that feel like they could've happened yesterday, or maybe tomorrow."
+
+    "In mine, I'm standing in the rain. No umbrella. No shelter. Just the cold soaking through my hoodie and the weight of another day that didn't go the way I hoped."
+
+    "The city around me is blurred—neon signs flickering like broken pixels, headlights streaking past like ghost data. My phone's dead. My resume is damp and crumpled in my bag."
+
+    "I had just come from another interview. Another polite rejection. Another reminder that my dream of making games people actually cared about was still out of reach."
+
+    "I wanted to build something beautiful. Something that made people feel seen. Something that mattered."
+
+    "But all I had was a soaked hoodie, a half-finished portfolio, and the creeping doubt that maybe I wasn't good enough."
+
+    "And then... she appeared."
+
+    "A stranger. She didn't say a word. Just stepped beside me, held out her umbrella, and smiled."
+
+    "It wasn't a dramatic moment. No swelling music. No slow-motion. Just a quiet gesture in the middle of a storm."
+
+    "We walked together, side by side, through the rain. Her presence was calm, like a loading screen that didn't rush you."
+
+    "I didn't know her name. I didn't know why she helped me. But I remember the feeling."
+
+    "The warmth of shared silence. The comfort of not having to explain myself. The way her umbrella tilted slightly toward me, like she was making space for more than just my body."
+
+    "That small act of kindness... it stayed with me."
+
+    "Maybe it was just a dream. Or maybe it was something I've been waiting for—not just someone to walk with, but someone who sees the version of me I'm still trying to become."
+
+    "Someone who doesn't mind the bugs in my personality. Someone who doesn't need me to be perfect code."
+
+    "In that moment, I wasn't a failed applicant. I wasn't a lonely dev. I was just... me. And that was enough."
+
+    "We reached my doorstep. I turned to thank her, but she was already walking away."
+
+    "No name. No goodbye. Just a smile that felt like a soft reboot."
+
+    "I watched her disappear into the rain, and for the first time in weeks, I felt something other than tired."
+
+    "Hope."
+
+# Wake up screen transition
+
+    "I wake up to the sound of my alarm and the soft light of morning."
+
+    "The rain is gone. The dream fades."
+
+    "But something about it lingers—like a promise waiting to be fulfilled."
+
+    "Today's my first day at Studio Kairo. A real dev team. A real chance."
+
+    "I don't know who she is yet. Maybe she's just a figment of my imagination. Or maybe she's out there, somewhere in the code of my life, waiting to be compiled."
+
+    "Either way, I'm ready to start."
+
+    jump chapter0
+
+label chapter0:    
 
 # Scene 1: Studio Entrance
 

@@ -24,6 +24,4 @@ default flag_love_jam_partner = False
 # The game starts here.
 
 label start:
-    jump chapter0
-
-    
+    jump prologue
