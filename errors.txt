@@ -1,0 +1,9 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/chapter/chapter0.rpy", line 8: unterminated string literal
+    "We chatted along the way, and I couldn't help but feel a little spark between us
+
+Ren'Py Version: Ren'Py 8.4.1.25072401
+Fri Sep  5 23:32:46 2025

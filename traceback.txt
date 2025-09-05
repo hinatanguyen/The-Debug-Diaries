@@ -1,0 +1,33 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/chapter/chapter4.rpy", line 7, in script
+    if yuki_affection >= 6 or (
+  File "game/chapter/chapter4.rpy", line 7, in <module>
+    if yuki_affection >= 6 or (
+       ^^^^^^^^^^^^^^          
+NameError: name 'yuki_affection' is not defined. Did you mean: 'kasuka_affection'?
+
+-- Full Traceback ------------------------------------------------------------
+
+Traceback (most recent call last):
+  File "game/chapter/chapter4.rpy", line 7, in script
+    if yuki_affection >= 6 or (
+  File "renpy/ast.py", line 2079, in execute
+    if renpy.python.py_eval(condition):
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^ 
+  File "renpy/python.py", line 1292, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1285, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/chapter/chapter4.rpy", line 7, in <module>
+    if yuki_affection >= 6 or (
+       ^^^^^^^^^^^^^^          
+NameError: name 'yuki_affection' is not defined. Did you mean: 'kasuka_affection'?
+
+Linux-6.14.0-29-generic-x86_64-with-glibc2.39 x86_64
+Ren'Py 8.4.1.25072401
+The Debug Diaries 1.0
+Fri Sep  5 23:34:17 2025

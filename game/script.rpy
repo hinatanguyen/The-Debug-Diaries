@@ -1,33 +1,29 @@
 ﻿# The script of the game goes in this file.
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
+# Define main protagonist
 
-define e = Character("Eileen")
+define main = Character('Hiroshi', color="#ffffff")
+define k = Character('Kasuka', color="#ffffff")
+define m = Character('Mika', color="#ffffff")
+define r = Character('Rin', color="#ffffff")
 
+# Define side characters
+define d = Character('Daichi', color="#ffffff")
+define t = Character('Tomo', color="#ffffff")
+
+# Define affection points
+default kasuka_affection = 0
+
+# Define flag
+default flag_walk_home = False
+default flag_encourage_draw = False
+default flag_forest = False
+default flag_confession = False
+default flag_love_jam_partner = False
 
 # The game starts here.
 
 label start:
+    jump chapter0
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
-    scene bg room
-
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-    show eileen happy
-
-    # These display lines of dialogue.
-
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    # This ends the game.
-
-    return
+    
