@@ -6,6 +6,7 @@ define main = Character('Hiroshi', color="#ffffff")
 define k = Character('Kasuka', color="#ffffff")
 define m = Character('Mika', color="#ffffff")
 define r = Character('Rin', color="#ffffff")
+define ri = Character('Riku', color="#ffffff")
 
 # Define side characters
 define d = Character('Daichi', color="#ffffff")
